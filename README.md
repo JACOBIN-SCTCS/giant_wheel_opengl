@@ -5,14 +5,18 @@
 
 ## Install Opengl
 
-```sudo apt-get install g++
+```
+   sudo apt-get install g++
    sudo apt-get install freeglut3-dev
+   
 ```
 
 ### Compile and run
 
-```g++ giant_wheel.cpp -lGL -lGLU -lglut
-   ./a.out
+```
+g++ giant_wheel.cpp -lGL -lGLU -lglut
+./a.out
+
 ```
 
 ### References 
